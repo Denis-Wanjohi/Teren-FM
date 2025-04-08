@@ -6,8 +6,8 @@ const isMenu = ref(false)
 </script>
 
 <template>
-    <div class="flex justify-between h-[60px] bg-blue-400 open-sans py-1 sm:px-10 pl-10 pr-3">
-        <img src="/images/logo.png" @click="router.push('/')" alt="">
+    <div class="flex justify-between items-center h-[60px] bg-blue-400 open-sans py-1 sm:px-10 pl-10 pr-3">
+        <img src="/images/logo.png" class="w-[120px]" @click="router.push('/')" alt="">
         <div class="sm:block hidden w-1/2" >
             <div class="flex justify-around items-center font-sans text-md ">
                 <p @click="router.push('/')" class="hover:cursor-pointer hover:bg-blue-300 px-2 py-2 rounded">HOME</p>

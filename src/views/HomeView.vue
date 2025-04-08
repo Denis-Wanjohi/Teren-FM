@@ -5,7 +5,6 @@ import Services from '@/components/HomePage/Services.vue';
 import Value from '@/components/HomePage/Value.vue';
 import CTA from '@/components/CTA.vue';
 import Heading from '@/components/Heading.vue';
-import Footer from '@/components/Footer.vue';
 const whyData = [
   {
     label: 'Expertise & Experience',

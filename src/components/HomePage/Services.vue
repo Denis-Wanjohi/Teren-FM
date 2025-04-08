@@ -37,7 +37,7 @@ const services = [
                     <img :src="image" class="lg:w-1/2 w-5/12 float-right h-1/2 lg:block hidden" alt="">
                     <div class="text-center lg:w-1/2 w-full flex items-center">
                         <div>
-                            <img :src="image" class="lg:w-1/2 w-5/12 md:block hidden  h-1/2" :class="i%2 != 0 ? 'float-right' : 'float-left'" alt="">
+                            <img :src="image" class="lg:w-1/2 w-5/12 md:block hidden lg:hidden  h-1/2" :class="i%2 != 0 ? 'float-right' : 'float-left'" alt="">
                             <p class="lora g:text-4xl text-2xl px-4 leading-10 lg:mb-10">{{ label }}</p>
                             <img :src="image" class="lg:w-1/2 md:w-5/12 md:hidden block  h-1/2"  alt="">
                             

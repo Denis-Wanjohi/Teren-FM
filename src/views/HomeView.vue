@@ -50,9 +50,9 @@ const whyData = [
     </div>
 
     <!-- WHY CHOOSE US -->
-    <div>
-      <p class="text-center text-3xl font-bold md:block hidden">WHY CHOOSE US</p>
-      <heading title="Why Teren"></heading>
+    <div class="mt-10">
+      <p class="text-center text-3xl font-bold md:block hidden">Why Teren</p>
+      <heading title="Why Teren" class="md:hidden block"></heading>
       <div class="flex flex-wrap justify-around p-10">
         <div v-for="{ label, desc } in whyData" class="rounded bg-slate-200 lg:shadow-xl shadow shadow-slate-400 lg:w-3/12 md:w-5/12 lg:px-5 px-2 m-3">
           <div class="lg:w-3/4 w-10/12 mx-auto text-center">

@@ -51,7 +51,8 @@ import Heading2 from '../Heading2.vue';
             </div>
         </div>
     </div>
-    <div class="flex overflow-auto">
+    <div class="sm:hidden block">
+        <div class="flex overflow-auto ">
         <div class="mx-3">
             <div class="w-[200px] h-[200px] flex items-end justify-center"
                 style="background-image: url('/images/AboutPage/office.png'); background-size: cover; object-fit: cover; object-position: center;">
@@ -108,6 +109,8 @@ import Heading2 from '../Heading2.vue';
                     Residentials</p>
             </div>
         </div>
+    </div>
+
     </div>
 </template>
 <style>

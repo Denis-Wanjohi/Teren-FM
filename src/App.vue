@@ -6,9 +6,11 @@ import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <nav-bar></nav-bar>
+  <main class="dark:bg-white dark:text-black">
+    <nav-bar></nav-bar>
   <RouterView />
   <Footer></Footer>
+  </main>
 </template>
 
 <style>

@@ -5,6 +5,7 @@ import Services from '@/components/HomePage/Services.vue';
 import Value from '@/components/HomePage/Value.vue';
 import CTA from '@/components/CTA.vue';
 import Heading from '@/components/Heading.vue';
+import { onMounted } from 'vue';
 const whyData = [
   {
     label: 'Expertise & Experience',
@@ -27,6 +28,9 @@ const whyData = [
     desc: 'We provide round-the-clock support and emergency response to ensure your business continuity.'
   }
 ]
+onMounted(()=>{
+  window.scrollTo(0, 0);
+})
 </script>
 
 <template>

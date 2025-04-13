@@ -1,6 +1,10 @@
 <script setup>
 import { Accordion, AccordionPanel, AccordionHeader, AccordionContent } from 'primevue';
 import CTA from '@/components/CTA.vue';
+import { onMounted } from 'vue';
+onMounted(()=>{
+  window.scrollTo(0, 0);
+})
 const services = [
     {
 
@@ -251,7 +255,7 @@ const services = [
 <template>
     <p class="lora md:text-6xl text-3xl text-center my-10" style="font-weight: 500;">OUR SERVICES</p>
     <main class="px-3">
-        <div v-for="{ title, description, image, services } in services">
+        <div v-for="{ title, description, image, services } in services" class="mb-20">
             <p class="cinzel text-center md:text-2xl text-xl my-5" style="font-weight: bold;">{{ title }}</p>
             <p class="text-center md:w-3/4 w-10/12 mx-auto">{{ description }}</p>
             <img :src="image" class="mx-auto md:w-[500px] w-10/12 my-5" alt="">

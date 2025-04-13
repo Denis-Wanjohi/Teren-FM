@@ -3,6 +3,10 @@ import Heading2 from '@/components/Heading2.vue';
 import Services from '@/components/AboutPage/Services.vue';
 import Serve from '@/components/AboutPage/Serve.vue';
 import CTA from '@/components/CTA.vue';
+import { onMounted } from 'vue';
+onMounted(()=>{
+  window.scrollTo(0, 0);
+})
 </script>
 <template>
   <main>

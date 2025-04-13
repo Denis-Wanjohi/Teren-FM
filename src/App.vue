@@ -8,8 +8,8 @@ import Footer from './components/Footer.vue';
 <template>
   <main class="dark:bg-white dark:text-black">
     <nav-bar></nav-bar>
-  <RouterView />
-  <Footer></Footer>
+    <RouterView />
+    <Footer></Footer>
   </main>
 </template>
 

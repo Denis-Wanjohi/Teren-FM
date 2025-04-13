@@ -12,11 +12,11 @@ import { Divider } from 'primevue';
         </div>
         <div class="flex md:w-2/3 justify-evenly font-bold text-xl items-center">
             <div class="leading-15">
-                <router-link to="/">Home</router-link>
+                <router-link @click="window.scrollTo(0, 0);" to="/">Home</router-link>
                 <br>
-                <router-link to="/about">About</router-link>
+                <router-link @click="window.scrollTo(0, 0);" to="/about">About</router-link>
                 <br>
-                <router-link to="/services">Services</router-link>
+                <router-link @click="window.scrollTo(0, 0);" to="/services">Services</router-link>
               
             </div>
             <div class="leading-20">
